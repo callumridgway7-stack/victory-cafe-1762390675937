@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victory Cafe - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1E40AF',
+                        secondary: '#3B82F6',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold text-primary">Victory Cafe</h1>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="/" class="text-gray-700 hover:text-primary">Home</a>
+                    <a href="/about.html" class="text-gray-700 hover:text-primary">About</a>
+                    <a href="/contact.html" class="text-gray-700 hover:text-primary">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-700">☰</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-primary to-secondary text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-6xl font-bold mb-4">Welcome to Victory Cafe</h2>
+            <p class="text-xl md:text-2xl">Savor the taste of victory with our modern delights</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-3xl font-bold text-center text-gray-800 mb-12">Our Menu</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Coffee -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-semibold text-primary mb-2">Espresso</h4>
+                    <p class="text-gray-600 mb-2">Rich and bold</p>
+                    <p class="text-2xl font-bold text-primary">$3.50</p>
+                </div>
+                <!-- Tea -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-semibold text-primary mb-2">Green Tea</h4>
+                    <p class="text-gray-600 mb-2">Refreshing and light</p>
+                    <p class="text-2xl font-bold text-primary">$2.75</p>
+                </div>
+                <!-- Pastry -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-semibold text-primary mb-2">Croissant</h4>
+                    <p class="text-gray-600 mb-2">Flaky and buttery</p>
+                    <p class="text-2xl font-bold text-primary">$4.00</p>
+                </div>
+                <!-- Add more menu items as needed -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-semibold text-primary mb-2">Latte</h4>
+                    <p class="text-gray-600 mb-2">Creamy and smooth</p>
+                    <p class="text-2xl font-bold text-primary">$4.50</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-semibold text-primary mb-2">Muffin</h4>
+                    <p class="text-gray-600 mb-2">Fresh baked daily</p>
+                    <p class="text-2xl font-bold text-primary">$3.00</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <h4 class="text-xl font-semibold text-primary mb-2">Sandwich</h4>
+                    <p class="text-gray-600 mb-2">Gourmet selection</p>
+                    <p class="text-2xl font-bold text-primary">$7.50</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2023 Victory Cafe. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
